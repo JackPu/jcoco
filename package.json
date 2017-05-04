@@ -1,0 +1,23 @@
+{
+  "name": "jcoco",
+  "version": "0.0.1",
+  "description": "upload your image to your cdn freely",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JackPu/jcoco.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JackPu/jcoco/issues"
+  },
+  "homepage": "https://github.com/JackPu/jcoco#readme",
+  "dependencies": {
+    "koa": "^2.2.0"
+  }
+}
