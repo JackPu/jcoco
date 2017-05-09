@@ -1,11 +1,21 @@
-### JCOCO
+# JCOCO
 
-JCOCO is a free tool for developers to upload his image to CDN server(S3 or qiniu). And you can copy the url and markdown contents.
+JCOCO 是一款免费的图床工具。
 
-### How to start
+### 如何使用
 
 ``` bash
-git clone https://github.com/JackPu/jcoco.git
-cd jcoco && npm install
-npm run start
+# serve with hot reload at localhost:8080
+npm run dev
+
+# build for production with minification
+npm run build
+
+# build for production and view the bundle analyzer report
+npm run build --report
+
+# build and run in production
+npm start
 ```
+
+
