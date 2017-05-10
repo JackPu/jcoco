@@ -1,0 +1,49 @@
+.ft{
+  overflow: hidden;
+  clear: both;
+  padding-top: 40px;
+  .container{
+    height: 200px;
+    padding-top: 200px;
+    position: relative;
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    color: lighten(@wet-asphalt, 30%);
+  }
+  .logo{
+    padding-top: 90px;
+  }
+  .copyright {
+    font-size: 13px;
+  }
+  .wave-inner {
+    position: absolute;
+    bottom: -200%;
+    left: -12.5%;
+    width: 1000px;
+    height: 1000px;
+    background: rgba(52,152,219, .2);
+    // border: 2px solid #2980b9;
+    border-radius: 46%;
+    transform-origin: 50% 48%;
+  }
+  .wave-inner:nth-child(2) {
+    animation-duration: 7s;
+    // border: 2px solid #9b59b6;
+    transform: rotate(60deg);
+  }
+
+  .wave-inner:nth-child(3) {
+    margin-top: 10px;
+   //  border: 2px solid #2ecc71;
+    animation-duration: 9s;
+    transform: rotate(30deg);
+  }
+  
+}
+
+@keyframes waves {
+  from { transform: rotate(360deg); }
+  to { transform: rotate(0deg); }
+}

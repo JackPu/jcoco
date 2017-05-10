@@ -75,6 +75,7 @@
     "shelljs": "^0.7.6",
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.7",
+    "vue-core-image-upload": "^2.1.9",
     "vue-loader": "^10.3.0",
     "vue-style-loader": "^2.0.0",
     "vue-template-compiler": "^2.1.10",

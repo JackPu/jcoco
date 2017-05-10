@@ -41,8 +41,8 @@
 .submit-btn,
 .btn.active{
     color:#fff;
-    background: @emerald;
-    border-color: @emerald;
+    background: @peter-river;
+    border-color: @peter-river;
 }
 .btn-primary:focus,
 .btn-primary:active,
@@ -50,13 +50,13 @@
 .submit-btn:active,
 .btn.active:focuss,
 .btn.active:active{
-    border-color:#009cd6;
+    border-color:@peter-river;
 }
 .btn-primary:hover,
 .submit-btn:hover,
 .btn.active:hover{
-    background: @nephritis;
-    border-color: @nephritis;
+    background: @belize-hole;
+    border-color: @belize-hole;
 }
 .btn-info{
     color:@emerald;
@@ -354,15 +354,16 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-circle{
+    display: inline-block;
     position: relative;
-    width: 60px;
-    height: 60px;
-    background: #fff;
+    width: 45px;
+    height: 45px;
     border-radius: 30px;
     box-shadow: 0px 2px 5px rgba(0,0,0,.05);
     line-height: 60px;
     font-size: 18px;
     color:#999;
+    text-align: center;
 }
 .btn-circle:hover{
     box-shadow: 0px 5px 12px rgba(0,0,0,.1);
@@ -370,9 +371,9 @@ fieldset[disabled] .btn-default.active {
 .btn-circle:hover:after{
     content: attr(data-tooltip);
     position: absolute;
-    top:70px;
+    top:50px;
     width: 80px;
-    left:-10px;
+    left: -30px;
     background: #333;
     background: rgba(0,0,0,.8);
     border-radius: 2px;

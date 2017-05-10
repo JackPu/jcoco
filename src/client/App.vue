@@ -1,18 +1,22 @@
 <template>
   <div id="app">
     <hd></hd>
-    <img src="./assets/logo.png">
-    <router-view></router-view>
+    <div class="router">
+      <router-view></router-view>
+    </div>
+    <ft></ft>
   </div>
 </template>
 
 <script>
 import Hd from './components/Hd.vue';
+import Ft from './components/Ft.vue';
 
 export default {
   name: 'app',
   components: {
     Hd,
+    Ft,
   },
 };
 </script>
